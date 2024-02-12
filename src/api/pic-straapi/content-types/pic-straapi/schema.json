@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pic_straapis",
+  "info": {
+    "singularName": "pic-straapi",
+    "pluralName": "pic-straapis",
+    "displayName": "PicStraapi"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
